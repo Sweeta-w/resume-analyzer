@@ -30,13 +30,14 @@ st.markdown("""
     .main-header {
         font-size: 2.2rem;
         font-weight: 700;
-        color: #0f172a;
+        color: var(--text-color); /* Adapts automatically to Light & Dark mode */
         margin-bottom: 0.2rem;
     }
     
     .sub-header {
         font-size: 1rem;
-        color: #64748b;
+        color: var(--text-color);
+        opacity: 0.75; /* Softened secondary color for both themes */
         margin-bottom: 2rem;
     }
     
